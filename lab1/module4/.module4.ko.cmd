@@ -1,0 +1,1 @@
+cmd_/home/luyifan/cs353-lab/lab1/module4/module4.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id=sha1  -T ./scripts/module-common.lds -o /home/luyifan/cs353-lab/lab1/module4/module4.ko /home/luyifan/cs353-lab/lab1/module4/module4.o /home/luyifan/cs353-lab/lab1/module4/module4.mod.o;  true
